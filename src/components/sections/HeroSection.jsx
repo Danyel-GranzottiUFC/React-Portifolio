@@ -13,7 +13,7 @@ export const HeroSection = () => {
     <StyledHeroSection id="hero-section">
       <HeroContent>
         <h1>Danyel Granzotti</h1>
-        <h3>{"{Desenvolvedor Front-End}"}</h3>
+        <h3>{"{Desenvolvedor Web}"}</h3>
         <p>HTML5 . CSS3 . JavaScript . React . Next.js. Bootstrap. Vue</p>
         <div>
           <CTAButton href="#contact" primary margin="0 0 0 20px">
