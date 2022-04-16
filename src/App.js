@@ -33,6 +33,7 @@ const App = () => {
         <HeroSection />
         <Container>
           <AboutSection />
+          <ProjectsSection />
           <ServicesSection />
           <ContactSection />
         </Container>

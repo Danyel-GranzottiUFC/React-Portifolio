@@ -18,43 +18,42 @@ export const ProjectsSection = () => {
           <h1>Projects</h1>
           <p>These are some of my best projects</p>
         </SectionHeading>
+
         <div>
-          {Projects &&
-            Projects.map((project, index) => (
-              <SingleProject key={index}>
+              <SingleProject>
                 <ProjectImageContainer
-                  href={project.projectlink}
+                  href={"https://clone-netflix-with-bootstrap.netlify.app/"}
                   target="_blank"
                 >
-                  <img src={project.thumbnail} alt={project.title} />
+                  <img src={"https://s2.glbimg.com/im_lQF2n6bZkzQFp3PM-SE-HHKw=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/e/F/tlaQIWTRyKBPzDoqCoeQ/portuguese-brazil.jpg"} alt={"netflix-clone"} />
                   <SlantedCard />
                 </ProjectImageContainer>
                 <ProjectDescription>
-                  <h1>{project.title}</h1>
+                  <h1>Clone da Netflix com Bootstrap</h1>
                   <Tags>
-                    {project.tags &&
-                      project.tags.map((tag, tagIndex) => (
-                        <span key={tagIndex}>{tag}</span>
-                      ))}
+                    
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                      
                   </Tags>
-                  <p>{project.paragraph}</p>
+                  <p>Clone do site de streaming feito com framework Bootstrap</p>
                   <div>
-                    <a href={project.codelink} target="_blank" rel="noreferrer">
+                    <a href={"https://github.com/Danyel-GranzottiUFC/clone-netflix-bootstrap"} target="_blank" rel="noreferrer">
                       <FaGithub />
-                      <span>View Code</span>
+                      <span>Código Fonte</span>
                     </a>
                     <a
-                      href={project.projectlink}
+                      href={"https://clone-netflix-with-bootstrap.netlify.app/"}
                       target="_blank"
                       rel="noreferrer"
                     >
                       <FaLink />
-                      <span>{project.projectlinkText}</span>
+                      <span>Clone Bootstrap</span>
                     </a>
                   </div>
                 </ProjectDescription>
               </SingleProject>
-            ))}
         </div>
       </StyledProjectsSection>
       <hr />
