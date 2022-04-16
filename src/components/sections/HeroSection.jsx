@@ -26,6 +26,9 @@ export const HeroSection = () => {
       </StyledArrowDown>
       <HeroSocialIcons>
   
+        <SocialIcon href="https://github.com/Danyel-GranzottiUFC" target="_blank">
+          <FaGithub />
+        </SocialIcon>
         <SocialIcon href="https://github.com/DanyelGranzotti" target="_blank">
           <FaGithub />
         </SocialIcon>
