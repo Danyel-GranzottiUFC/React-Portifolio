@@ -43,7 +43,6 @@ export const StyledAboutSection = styled.section`
   align-items: center;
   justify-content: space-between;
   padding: 10rem 0 5rem 0;
-
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
     align-items: flex-start;
