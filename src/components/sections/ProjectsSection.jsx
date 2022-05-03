@@ -16,7 +16,7 @@ export const ProjectsSection = () => {
       <StyledProjectsSection id="projects">
         <SectionHeading>
           <h1>Projetos</h1>
-          <p>Estes são alguns dos meus melhores projectos</p>
+          <p>Estes são alguns dos meus melhores projetos</p>
         </SectionHeading>
 
         <div>
