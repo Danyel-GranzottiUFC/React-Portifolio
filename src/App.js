@@ -18,6 +18,8 @@ const App = () => {
       lightNavyBlue: "rgba(4, 22, 48, 1)",
       green: "rgba(0, 206, 158,1)",
       orange: "rgba(249, 105, 14, 1)",
+      red: "rgba(160, 2, 51, 1)",
+      redHover: "rgba(101, 6, 42, 1)",
       purple: "rgba(102, 51,153, 1)",
     },
     mobile: "768px",

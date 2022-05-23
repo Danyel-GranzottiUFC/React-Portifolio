@@ -16,7 +16,7 @@ const navItemAnimation = ({ index }) => css`
 `;
 
 export const Nav = styled.nav`
-  height: 80px;
+  height: 90px;
   width: 100%;
   padding: 0 20px;
   display: flex;
@@ -31,8 +31,8 @@ export const Nav = styled.nav`
 `;
 
 export const Logo = styled.img`
-  width: 55px;
-  border-radius: 50%;
+  width: 145px;
+  border-radius: 6%;
 `;
 
 export const MenuIcon = styled.div`

@@ -29,6 +29,8 @@ export const AboutSection = () => {
             Meu interesse é desenvolver soluções que facilitem o dia-a-dia de quem utiliza os sistemas em que trabalho. Além dissso, procuro sempre aprimorar e diversificar minhas habilidades e me aperfeiçoar como profissional.
           </p>
           <p>
+          poss
+
           Lattes: <a href="http://lattes.cnpq.br/5332374832041038" target="_blank">http://lattes.cnpq.br/5332374832041038</a>  
           </p>          
           </p>

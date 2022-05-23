@@ -13,8 +13,6 @@ import {
   Profile,
   SocialIcons,
 } from "../styles/layout/Nav.styled";
-import { FaYoutube, FaTwitter, FaGithub,FaLinkedinIn } from "react-icons/fa";
-import { CTAButton } from "../styles/common/CTAButton.styled";
 import useScrollDirection from "../../hooks/useScrollDirection";
 
 export const NavBar = () => {

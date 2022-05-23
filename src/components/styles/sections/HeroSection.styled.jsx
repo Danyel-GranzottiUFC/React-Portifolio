@@ -41,7 +41,7 @@ to{
 
 export const StyledHeroSection = styled.section`
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   background: linear-gradient(
       135deg,
       rgba(0, 64, 77, 0.9) 0%,
