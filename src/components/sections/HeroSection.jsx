@@ -16,7 +16,8 @@ export const HeroSection = () => {
         <h1>Danyel Granzotti</h1>
         <h3>{"{Desenvolvedor Web}"}</h3>
         <p>
-          HTML5 . CSS3 . JavaScript . TypeScript . React . Angular . Bootstrap{" "}
+          HTML5 . CSS3 . JavaScript . TypeScript . React . Angular . Bootstrap,
+          Spring Boot, Node.js
         </p>
         <div>
           <CTAButton href="#contact" primary margin="0 0 0 20px">
@@ -25,7 +26,9 @@ export const HeroSection = () => {
         </div>
         <div>
           <PDFButton
-            href="https://drive.google.com/uc?export=download&id=1tTCZefq171MOEj5vww_ytYAFuPav3yej"
+            href="https://drive.google.com/file/d/1egRjtzinbPCQpd7ZVm6NnAu8hqlZTVUB/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
             primary
             margin="0 0 0 20px"
           >

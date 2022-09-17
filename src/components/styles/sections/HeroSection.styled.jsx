@@ -89,6 +89,7 @@ export const HeroContent = styled.div`
   }
   p {
     font-size: 1.7rem;
+    line-height: 1.5;
     font-weight: 400;
     text-transform: none;
   }
