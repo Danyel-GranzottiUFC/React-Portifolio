@@ -1,4 +1,4 @@
-import { FaEnvelope, FaTwitter,FaWhatsapp } from "react-icons/fa";
+import { FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import { SectionHeading } from "../styles/common/SectionHeading.styled";
 import {
   ContactInfo,
@@ -18,7 +18,7 @@ export const ContactSection = () => {
         <DetailsWrapper>
           <ContactInfo>
             <p>
-              Adoraria se me contactassem. Mesmo que seja só para dizer "Oi!".              
+              Adoraria se me contactassem. Mesmo que seja só para dizer "Oi!".
             </p>
             <div>
               <a href="mailto:danyelgranzotti@alu.ufc.br">
@@ -26,9 +26,8 @@ export const ContactSection = () => {
               </a>
 
               <a href="tel:+5589994019784">
-                <FaWhatsapp  /> <span>(89)99401-9784</span>
+                <FaWhatsapp /> <span>(89)99401-9784</span>
               </a>
-
             </div>
           </ContactInfo>
           <ImageWrapper>

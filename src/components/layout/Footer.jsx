@@ -28,10 +28,9 @@ export const Footer = () => {
           <a href="#services">Serviços</a>
           <a href="#contact">Contato</a>
         </FooterNav>
-        {/* <CodedWith>Coded with React and Styled Components</CodedWith> */}
+        <CodedWith>Coded with React and Styled Components</CodedWith>
         <div>
-          &copy;{months[new Date().getMonth()]}{" "}
-          {new Date().getFullYear()}
+          &copy;{months[new Date().getMonth()]} {new Date().getFullYear()}
         </div>
       </SyledFooter>
     </>

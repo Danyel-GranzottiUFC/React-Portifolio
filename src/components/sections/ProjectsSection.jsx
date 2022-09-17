@@ -20,12 +20,13 @@ export const ProjectsSection = () => {
         </SectionHeading>
 
         <div>
-           {Projects &&
+          {Projects &&
             Projects.map((project, index) => (
               <SingleProject key={index}>
                 <ProjectImageContainer
                   href={project.projectlink}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={project.thumbnail} alt={project.title} />
                   <SlantedCard />

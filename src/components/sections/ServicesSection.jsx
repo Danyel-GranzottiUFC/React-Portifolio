@@ -1,4 +1,4 @@
-import { FaBrain, FaCode, FaLaptopCode, FaGit ,FaLanguage} from "react-icons/fa";
+import { FaCode, FaLaptopCode, FaGit, FaLanguage } from "react-icons/fa";
 import { SectionHeading } from "../styles/common/SectionHeading.styled";
 import {
   IconWrapper,
@@ -39,9 +39,7 @@ export const ServicesSection = () => {
               <FaGit />
             </IconWrapper>
             <h1>Versionamento de Código</h1>
-            <p>
-              Trabalho com git, github, bitbucket, entre outros.
-            </p>
+            <p>Trabalho com git, github, bitbucket, entre outros.</p>
           </SingleService>
           <SingleService>
             <IconWrapper>
@@ -49,7 +47,8 @@ export const ServicesSection = () => {
             </IconWrapper>
             <h1>Bom Listening e Reading</h1>
             <p>
-              Compreendo com facilidade textos e falas em inglês. Além de conseguir me comunicar.
+              Compreendo com facilidade textos e falas em inglês. Além de
+              conseguir me comunicar.
             </p>
           </SingleService>
         </ServicesItems>
